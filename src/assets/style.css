@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer components {
+  .custom-progress-bar {
+    @apply w-full;
+  }
+
+  .custom-progress-bar-track {
+    @apply w-full h-3 bg-gray-200 rounded-full overflow-hidden;
+  }
+
+  .custom-progress-value {
+    @apply h-full transition-all duration-500 ease-out flex items-center justify-end px-2 text-xs font-medium text-white rounded-full;
+    width: 0%;
+  }
+}
